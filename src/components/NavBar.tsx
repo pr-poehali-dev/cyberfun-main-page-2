@@ -21,16 +21,16 @@ const NavBar = () => {
           </Link>
           
           <nav className="hidden md:flex items-center space-x-1">
-            <Link to="/servers" className="px-3 py-2 hover:text-cyber-neon transition-colors">
+            <Link to="/" className="px-3 py-2 hover:text-cyber-neon transition-colors">
               Серверы
             </Link>
-            <Link to="/tournaments" className="px-3 py-2 hover:text-cyber-neon transition-colors">
+            <Link to="/" className="px-3 py-2 hover:text-cyber-neon transition-colors">
               Турниры
             </Link>
-            <Link to="/rating" className="px-3 py-2 hover:text-cyber-neon transition-colors">
+            <Link to="/" className="px-3 py-2 hover:text-cyber-neon transition-colors">
               Рейтинг
             </Link>
-            <Link to="/shop" className="px-3 py-2 hover:text-cyber-neon transition-colors">
+            <Link to="/" className="px-3 py-2 hover:text-cyber-neon transition-colors">
               Магазин
             </Link>
           </nav>
