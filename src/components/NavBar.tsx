@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { SteamIcon } from "lucide-react";
+import SteamIcon from "./icons/SteamIcon";
 
 const NavBar = () => {
   return (
