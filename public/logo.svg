@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <!-- Background -->
+  <rect width="150" height="150" fill="#1A1F2C" rx="10" />
+  
+  <!-- Inner glow border -->
+  <rect x="5" y="5" width="140" height="140" fill="none" stroke="#9b87f5" stroke-width="2" rx="8" />
+  <rect x="10" y="10" width="130" height="130" fill="none" stroke="#9b87f5" stroke-width="1" rx="6" opacity="0.5" />
+  
+  <!-- Grid lines -->
+  <g stroke="#9b87f5" stroke-width="0.5" opacity="0.2">
+    <line x1="0" y1="30" x2="150" y2="30" />
+    <line x1="0" y1="60" x2="150" y2="60" />
+    <line x1="0" y1="90" x2="150" y2="90" />
+    <line x1="0" y1="120" x2="150" y2="120" />
+    <line x1="30" y1="0" x2="30" y2="150" />
+    <line x1="60" y1="0" x2="60" y2="150" />
+    <line x1="90" y1="0" x2="90" y2="150" />
+    <line x1="120" y1="0" x2="120" y2="150" />
+  </g>
+  
+  <!-- Diagonal accent -->
+  <polygon points="130,20 150,0 150,40" fill="#e04aff" opacity="0.7" />
+  <polygon points="20,130 0,150 40,150" fill="#9b87f5" opacity="0.7" />
+  
+  <!-- Logo main shape -->
+  <g transform="translate(75,75) rotate(45) translate(-45,-45)">
+    <rect x="30" y="30" width="60" height="60" fill="#9b87f5" rx="5" />
+    <rect x="25" y="25" width="70" height="70" fill="none" stroke="#9b87f5" stroke-width="2" rx="8" opacity="0.6" />
+  </g>
+  
+  <!-- Letter C -->
+  <path d="M82,60 C82,50 74,42 64,42 C54,42 46,50 46,60 C46,70 54,78 64,78 C70,78 76,74 79,69" 
+        fill="none" stroke="#1A1F2C" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Letter F (stylized) -->
+  <path d="M68,85 L88,85 M68,85 L68,110 M68,96 L83,96" 
+        fill="none" stroke="#1A1F2C" stroke-width="5" stroke-linecap="square" />
+        
+  <!-- Glitch effect -->
+  <rect x="60" y="72" width="10" height="4" fill="#e04aff" opacity="0.8" />
+  <rect x="80" y="92" width="6" height="2" fill="#33C3F0" opacity="0.8" />
+</svg>
